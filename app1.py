@@ -2,8 +2,8 @@ import streamlit as st
 import joblib
 import pandas as pd
 
-model = joblib.load('Canada_PCI.pki')
-house = joblib.load('house100.pki')
+model = joblib.load('Canada_PCI.pkl')
+house = joblib.load('house100.pkl')
 
 st.sidebar.title("Prediction apps")
 page=st.sidebar.selectbox("pages",options=["Per Capita Income","house"])
