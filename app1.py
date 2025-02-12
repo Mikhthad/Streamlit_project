@@ -11,6 +11,7 @@ page=st.sidebar.selectbox("pages",options=["Per Capita Income","house"])
 if page=="Per Capita Income":
     st.subheader('Per Capita income of canada')
     st.write('this is a simple web app to predict the per capita income of canada')
+    st.subheader("Predict Per Capita")
 
     year = st.number_input('Enter the year')
 
